@@ -1,12 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .main-section {
   display: flex;
   width: 70%;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 h1 {
   font-size: 2rem;
@@ -21,23 +23,125 @@ h1 {
 .focused-photo img {
   height: 300px;
 }
+
 .side-vertical {
   border-left: 3px solid;
   border-image: linear-gradient(blue, tomato);
   border-image-slice: 1;
   border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
 }
-.first-section p{
-    margin-top: 2rem;
+.side-vertical h1 {
+  padding-left: 10px;
 }
-.explore-btn{
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: none;
-    background-color: red;
-    border-radius: 3px;
-    font-size: 14px;
-    color: white;
-    cursor: pointer;
+.first-section p {
+  margin-top: 2rem;
+}
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(243, 140, 6);
+  border-radius: 3px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.mission-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.mission-heading .mission-color {
+  color: #fd9c0a;
+}
+
+.mission-img {
+  height: 100px;
+  width: 100px;
+}
+
+.mission-section {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.mission {
+  width: 250px;
+  border: none;
+  background-color: rgb(255, 227, 227);
+  box-shadow: 4px 4px 13px gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+.mission h3 {
+  margin-bottom: 10px;
+}
+.coding-img {
+  height: 250px;
+  width: 250px;
+}
+
+.develop-section {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.develop-section .right-side {
+  margin-left: 40px;
+}
+
+.meeting-img {
+  height: 250px;
+  width: 250px;
+}
+footer {
+  background-color: black;
+  height: 100px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+footer span {
+  color: #da2222;
+}
+footer h1 {
+  margin-bottom: 15px;
+}
+
+form {
+  width: 50%;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 5px #ccc;
+}
+.contact-name{
+    width: 50%;
+    padding-top: 120px;
+    
+}
+input {
+  width: calc(100% - 10px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
 }
 
